@@ -11,4 +11,5 @@ int Xb = Convert.ToInt32(Console.ReadLine());
 int Yb = Convert.ToInt32(Console.ReadLine());
 
 double result = Math.Sqrt((Xb - Xa) * (Xb - Xa) + (Yb - Ya) * (Yb - Ya));
+result = Math.Round(result, 2);
 Console.WriteLine($"Расстояние между точками: {result}");
